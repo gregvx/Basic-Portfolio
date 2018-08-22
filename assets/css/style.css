@@ -9,6 +9,7 @@ html {
 
 .content {
     min-height: 100%;
+    background-image: url("../images/concrete-texture.png");
 } 
 
 img {
@@ -79,9 +80,9 @@ hr {
 }
 
 .field {
-    background-image: url("../images/concrete-texture.png");
     text-align: center;
     margin-bottom: -50px;
+    
 }
 
 #container {
@@ -125,3 +126,30 @@ hr {
     margin-bottom: 0px;
 }
 
+.thumbnail {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.thumbnail img {
+    width: 200px;
+}
+.caption {
+    position: absolute;
+    background: #4aaaa5;
+    top: 100px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.caption p {
+    position: relative;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    top: 5px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
